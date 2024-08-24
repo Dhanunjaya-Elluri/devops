@@ -18,7 +18,7 @@ def division(a, b):
         return a / b
     except ZeroDivisionError:
         return "Division by zero is not allowed"
-    
+
+
 def remainder(a, b):
     return a % b
-     

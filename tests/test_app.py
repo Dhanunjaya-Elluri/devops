@@ -1,5 +1,5 @@
 import pytest
-from app.app import add, subtract, multiply, division, remainder 
+from app.app import add, subtract, multiply, division, remainder
 
 
 def test_add():
@@ -17,6 +17,7 @@ def test_multiply():
 def test_division():
     assert division(2, 1) == 2
     assert division(2, 0) == "Division by zero is not allowed"
+
 
 def test_remainder():
     assert remainder(2, 1) == 0
